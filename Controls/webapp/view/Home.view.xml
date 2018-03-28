@@ -1,0 +1,12 @@
+<mvc:View controllerName="Controls.controller.Home" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+			<Page title="{i18n>title}">
+				<content>
+					<VBox items="{controlModel>/}" class="marginLeft">
+						<items>
+							<Link text="{controlModel>control}"></Link>
+						</items>
+						</VBox>
+				</content>
+			</Page>
+</mvc:View>
