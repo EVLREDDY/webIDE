@@ -1,0 +1,19 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ebeventBus.controller.s2"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Page 2">
+		<content>
+			<VBox>
+				<items>
+					<Input value="{num>/a}" width="20%"></Input>
+					<Input value="{num>/b}" width="20%"></Input>
+					<HBox>
+						<items>
+							<Button text="+" press="onSum" width="10%" type="Accept"></Button>
+							<Button text="-" press="onSub" width="10%" class="sapUiTinyMarginRight" type="Reject"></Button>
+						</items>
+					</HBox>
+				</items>
+			</VBox>
+		</content>
+	</Page>
+</mvc:View>
